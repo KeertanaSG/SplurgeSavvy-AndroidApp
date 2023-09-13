@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+        android:allowBackup="false"
+        android:exported="false"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.SplurgeSavvy"
+        tools:targetApi="31">
+
+        <!-- MainActivity declaration -->
+        <activity
+            android:name=".activities.home.MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <!-- OnboardingActivity declaration -->
+        <activity
+            android:name=".activities.onboarding.OnboardingActivity"
+            android:exported="true">
+        </activity>
+
+        <activity
+            android:name=".activities.onboarding.SignUpActivity"
+            android:label="Sign Up">
+        </activity>
+
+        <activity
+            android:name=".activities.login.ForgotPasswordActivity"
+            android:label="Forgot Password" />
+        <activity
+            android:name=".activities.login.ForgotPasswordEmailSentActivity"
+            android:label="Email Sent" />
+        <activity
+            android:name=".activities.login.LoginPasswordActivity"
+            android:label="Login with Password" />
+        <activity
+            android:name=".activities.login.LoginPincodeActivity"
+            android:label="Login with Pincode" />
+        <activity
+            android:name=".activities.login.ResetPasswordActivity"
+            android:label="Reset Password" />
+        <activity
+            android:name=".activities.onboarding.SetUpBudgetActivity"
+            android:label="Set Up Budget" />
+        <activity
+            android:name=".activities.onboarding.NewBudgetActivity"
+            android:label="New Budget Activity" />
+        <activity
+            android:name=".activities.onboarding.SetUpPinActivity"
+            android:label="Set Up Pincode" />
+        <activity
+            android:name=".activities.onboarding.SignupSuccessActivity"
+            android:label="Sign Up Success" />
+        <activity
+            android:name=".activities.onboarding.VerificationCodeActivity"
+            android:label="Verification Code" />
+        <activity
+            android:name=".activities.home.HomePageActivity"
+            android:label="Home Page" />
+        <activity
+            android:name=".activities.manual.ManualExpenseActivity"
+            android:label="Manual Expense Activity" />
+        <activity
+            android:name=".activities.manual.DetailTransactionActivity"
+            android:label="Detail Transaction Activity" />
+        <activity
+            android:name=".activities.manual.EditExpenseActivity"
+            android:label="Edit Transaction Activity" />
+        <activity
+            android:name=".activities.home.HomeTransactionActivity"
+            android:label="Home Transaction Activity" />
+        <activity
+            android:name=".activities.settings.Settings_Activity"
+            android:label="Settings Activity" />
+        <activity
+            android:name=".activities.settings.SettingsAbout"
+            android:label="Settings About" />
+        <activity
+            android:name=".activities.settings.SettingsProfile"
+            android:label="Settings Profile" />
+        <activity
+            android:name=".activities.settings.SettingsChangeEmail"
+            android:label="Settings Change Email" />
+        <activity
+            android:name=".activities.settings.SettingsChangePassword"
+            android:label="Settings Change Password" />
+        <activity
+            android:name=".activities.home.HomeProfileActivity"
+            android:label="Profile Home Activity" />
+        <activity
+            android:name=".activities.profile.Profile_Account_Data"
+            android:label="Profile Account Activity" />
+        <activity
+            android:name=".activities.profile.Profile_Export_Data"
+            android:label="Profile Export Activity" />
+        <activity
+            android:name=".activities.category.AddCategoryActivity"
+            android:label="Profile Add Category Activity"/>
+        <activity
+            android:name=".activities.category.DetailCategoryActivity"
+            android:label="Profile Detail Category Activity"/>
+        <activity
+            android:name=".activities.category.EditCategoryActivity"
+            android:label="Profile Edit Category Activity"/>
+        <activity
+            android:name=".activities.budget.CreateBudgetActivity"
+            android:label="Budget Create Budget Activity"/>
+        <activity
+            android:name=".activities.budget.DetailBudgetActivity"
+            android:label="Budget Detail Budget Activity"/>
+        <activity
+            android:name=".activities.budget.EditBudgetActivity"
+            android:label="Profile Edit Budget Activity"/>
+        <activity
+            android:name=".activities.home.HomeBudgetActivity"
+            android:label="Home Budget Activity"/>
+
+    </application>
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+
+
+</manifest>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/cardView"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/budget_card"
+    app:cardElevation="4dp"
+    app:cardUseCompatPadding="true">
+
+    <RelativeLayout
+        android:layout_width="357dp"
+        android:layout_height="167dp"
+        android:padding="16dp">
+
+        <FrameLayout
+            android:id="@+id/budget_category"
+            android:layout_width="162dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp">
+
+            <ImageView
+                android:id="@+id/budget_category_image"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/budget_category"
+                android:contentDescription="budget category" />
+
+            <TextView
+                android:id="@+id/budget_category_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="Food"
+                android:textColor="@color/black"
+                android:textSize="16sp" />
+        </FrameLayout>
+
+        <TextView
+            android:id="@+id/remaining_0"
+            android:layout_width="206dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/budget_category"
+            android:layout_marginTop="10dp"
+            android:text="Budget Set:"
+            android:textAppearance="@style/remaining_0"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/amount_remaining"
+            android:layout_width="201dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/remaining_0"
+            android:layout_marginTop="10dp"
+            android:text="£2000"
+            android:textAppearance="@style/remaining_0" />
+
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>

@@ -1,0 +1,140 @@
+<resources>
+    <string name="app_name">SplurgeSavvy</string>
+    <string name="your_money_">Your Money,\nYour Rules</string>
+    <string name="empower_you">Empower Your Finances, Seamlessly Manage Non-Essential Splurges!</string>
+    <string name="financial_g">Financial GPS</string>
+    <string name="navigate_yo">Navigate Your Spending,\nTrack Transactions with Ease,\nand Discover Your Financial Story!</string>
+    <string name="indulgence_">Indulgence \nwith Intention</string>
+    <string name="login_text">Login</string>
+    <string name="sign_up_text">Sign Up</string>
+    <string name="set_budgets">Set Budgets for Non-Essentials, \nUnleash Your Desires, \nand Still Stay in Control!</string>
+    <string name="title">Sign Up</string>
+    <string name="title_login">Login</string>
+    <string name="title_forgot_password">Forgot Password</string>
+    <string name="title_reset_password">Reset Password</string>
+    <string name="placeholder_username">Username</string>
+    <string name="placeholder_email">Email</string>
+    <string name="placeholder_password">Password</string>
+    <string name="placeholder_name">Name</string>
+    <string name="by_signing_">By signing up, you agree to the Terms and Conditions</string>
+    <string name="already_hav">Already have an account?</string>
+    <string name="login">Login</string>
+    <string name="forgot_pass">Forgot Password?</string>
+    <string name="use_pin_ins">Use Pin instead?</string>
+    <string name="use_pass_ins">Use Password instead?</string>
+    <string name="do_not_have">Don’t have an account yet?</string>
+    <string name="pin">Click</string>
+    <string name="pass">Click</string>
+    <string name="signup">Sign Up</string>
+    <string name="placeholder_pin">Pin</string>
+    <string name="continue_">Continue</string>
+    <string name="enter_your_">Enter your email and we will send you a link to reset your password.</string>
+    <string name="your_email_">Your email is on the way</string>
+    <string name="check_your_">Check your email and follow the instructions to reset your password</string>
+    <string name="placeholder_password_confirm">Confirm Password</string>
+    <string name="placeholder_password_new">New Password</string>
+    <string name="title_verification">Verification</string>
+    <string name="enter_your_verification_code">Enter your Verification Code</string>
+    <string name="i_did_not_re">I did not receive the code? Send it again</string>
+    <string name="verify">Verify</string>
+    <string name="we_send_ver">We sent the verification code to your email. Please type the code.</string>
+    <string name="you_are_set">You are set!</string>
+    <string name="let_s_setup_bud">Let us set up your Budget!</string>
+    <string name="let_s_setup_pin">Let us set up your Pin!</string>
+    <string name="this_is_the">This is the budget you will set up for the non-essentials.</string>
+    <string name="title_budget">Budget</string>
+    <string name="balance">Balance</string>
+    <string-array name="dropdown_options">
+        <item>Select Timeframe</item>
+        <item>Daily</item>
+        <item>Weekly</item>
+        <item>Monthly</item>
+    </string-array>
+    <string name="dropdown_placeholder_text">Select Timeframe</string>
+    <string name="default_value_b">00.00</string>
+    <string name="option1">Daily</string>
+    <string name="option2">Weekly</string>
+    <string name="option3">Monthly</string>
+    <string name="setup_pin">Setup Pin</string>
+    <string name="btn_0">0</string>
+    <string name="manual_expense">Manual Expense</string>
+    <string name="how_much">How much</string>
+    <string name="category">Category</string>
+    <string name="description">Description</string>
+    <string name="add_attachment">Add Attachment</string>
+    <string name="detail_transaction">Detail Transaction</string>
+    <string name="saturday_4_">Saturday 4 June 2021</string>
+    <string name="time">16:20</string>
+    <string name="amet_minim_">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</string>
+    <string name="shopping">Shopping</string>
+    <string name="shoes">Shoes</string>
+    <string name="attachment">Attachment</string>
+    <string name="expense">Expense</string>
+    <string name="cost">£120</string>
+    <string name="edit">Edit</string>
+    <string name="title_create_budget">Create Budget for the category</string>
+    <string name="how_much_do">How much do you want to spend?</string>
+    <string name="title_detail_budget">Detail Budget</string>
+    <string name="remaining">Amount Remaining</string>
+    <string name="title_edit_budget">Edit Budget</string>
+    <string name="add_category">Add Category</string>
+    <string name="detail_category">Detail Category</string>
+    <string name="username">Username</string>
+    <string name="anonymous">anonymous</string>
+    <string name="account_dat">Account Data</string>
+    <string name="settings">Settings</string>
+    <string name="export_data">Export Data</string>
+    <string name="logout">Logout</string>
+    <string name="profile">Profile</string>
+    <string name="change_password">Change Password</string>
+    <string name="about">About</string>
+    <string name="change_email">Change Email</string>
+    <string name="change_username">Change Username</string>
+    <string name="old_username">Old Username</string>
+    <string name="new_username">New Username</string>
+    <string name="confirm_username">Confirm Username</string>
+    <string name="old_password">Old Password</string>
+    <string name="new_password">New Password</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="please_enter">Please enter the following-</string>
+    <string name="old_email">Old Email</string>
+    <string name="new_email">New Email</string>
+    <string name="confirm_email">Confirm Email</string>
+    <string name="confirm">Confirm</string>
+    <string name="splurge_savvy">SplurgeSavvy</string>
+    <string name="splurge_savvy_desc">You can easily log and categorize manual expenses though this app,
+        allowing you to gain better insight into where your money is going.
+        Track those little indulgences that might not fit into your essential budget categories but still contribute to your overall financial picture.
+        The app offers a simple and intuitive interface, empowering you to record your expenses on the go. Dive into detailed expense breakdowns, view trends, and stay informed about your discretionary spending habits.
+        Take control of your non-essential spending with the Non-Essential Expense Tracker and make informed financial decisions.</string>
+    <string name="pound">£</string>
+    <string name="remaining_0">Remaining</string>
+    <string name="of_1000">£2000 of £2400</string>
+    <string name="budget">Budget</string>
+    <string name="budget_amount">£9400</string>
+    <string name="create_budget">Create a Budget</string>
+    <string name="month">Month</string>
+    <string name="home">Home</string>
+    <string name="spend_frequency">Spend Frequency</string>
+    <string-array name="frequency_options">
+        <item>Daily</item>
+        <item>Weekly</item>
+        <item>Monthly</item>
+        <item>Yearly</item>
+    </string-array>
+    <string-array name="categories">
+        <item>Food</item>
+        <item>Transport</item>
+        <item>Entertainment</item>
+        <item>Health</item>
+        <item>Clothing</item>
+        <item>Electronics</item>
+        <item>Hobbies</item>
+        <item>Travel</item>
+        <item>Beauty And Cosmetics</item>
+        <item>Home Decor</item>
+    </string-array>
+    <string name="export_data_desc">You will be downloading the data related to all your nom-essential expenses up until now in a csv file.</string>
+
+
+</resources>

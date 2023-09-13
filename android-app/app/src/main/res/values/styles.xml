@@ -1,0 +1,318 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="your_money_">
+        <item name="android:textSize">32sp</item>
+        <item name="android:textColor">#212325</item>
+    </style>
+
+    <style name="empower_you">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">#292B2D</item>
+    </style>
+
+    <style name="financial_g">
+        <item name="android:textSize">32sp</item>
+        <item name="android:textColor">#212325</item>
+    </style>
+
+    <style name="navigate_yo">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">#292B2D</item>
+    </style>
+
+    <style name="indulgence_">
+        <item name="android:textSize">32sp</item>
+        <item name="android:textColor">#212325</item>
+    </style>
+
+    <style name="set_budgets">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">#292B2D</item>
+    </style>
+
+    <style name="title">
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">#212325</item>
+    </style>
+
+    <style name="title_login">
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">#212325</item>
+    </style>
+
+    <style name="placeholder_username">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">#91919F</item>
+    </style>
+
+    <style name="placeholder_email">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">#91919F</item>
+    </style>
+
+    <style name="placeholder_password">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">#91919F</item>
+    </style>
+
+    <style name="clickable_text">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">#000000</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:background">@drawable/clickable_background</item>
+        <item name="android:padding">8dp</item>
+    </style>
+
+    <style name="already_hav">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">#91919F</item>
+    </style>
+
+    <style name="login">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">#000000</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="use_pin_ins">
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">#91919F</item>
+    </style>
+
+    <style name="use_pass_ins">
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">#91919F</item>
+    </style>
+
+    <style name="pin">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">#000000</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="forgot_pass">
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">#91919F</item>
+    </style>
+
+    <style name="pass">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">#000000</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="do_not_have">
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">#91919F</item>
+    </style>
+
+    <style name="signup">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">#000000</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="enter_your_">
+        <item name="android:textSize">24sp</item>
+        <item name="android:textColor">#0D0E0F</item>
+    </style>
+
+    <style name="your_email_">
+        <item name="android:textSize">24sp</item>
+        <item name="android:textColor">#0D0E0F</item>
+    </style>
+
+    <style name="check_your_">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">#292B2D</item>
+    </style>
+
+    <style name="enter_your_verification_code">
+        <item name="android:textSize">36sp</item>
+        <item name="android:textColor">#0D0E0F</item>
+    </style>
+
+    <style name="i_did_not_re">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">#91919F</item>
+    </style>
+
+    <style name="we_send_ver">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">#292B2D</item>
+    </style>
+
+    <style name="you_are_set">
+        <item name="android:textSize">24sp</item>
+        <item name="android:textColor">#212325</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="let_s_setup_bud">
+        <item name="android:textSize">36sp</item>
+        <item name="android:textColor">#212325</item>
+    </style>
+
+    <style name="this_is_the">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">#292B2D</item>
+    </style>
+
+    <style name="title_budget">
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">#FFFFFF</item>
+    </style>
+
+    <style name="balance">
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">#FCFCFC</item>
+    </style>
+
+
+    <style name="default_value_b">
+        <item name="android:textSize">64sp</item>
+        <item name="android:textColor">#FCFCFC</item>
+    </style>
+
+    <style name="let_s_setup_pin">
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">#FFFFFF</item>
+    </style>
+
+
+
+    <style name="some_id">
+        <item name="android:textSize">48sp</item>
+        <item name="android:textColor">#FCFCFC</item>
+    </style>
+
+
+    <style name="NumericPadButton" parent="Widget.AppCompat.Button">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">0dp</item>
+        <item name="android:textSize">24sp</item>
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:background">@drawable/numeric_pad_button_background</item>
+        <item name="android:layout_columnWeight">1</item>
+        <item name="android:layout_rowWeight">1</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="manual_expense">
+        <item name="android:textSize">48sp</item>
+        <item name="android:textColor">#FCFCFC</item>
+    </style>
+
+    <style name="saturday_4_">
+        <item name="android:textSize">13sp</item>
+        <item name="android:textColor">#FCFCFC</item>
+    </style>
+
+    <style name="time">
+        <item name="android:textSize">13sp</item>
+        <item name="android:textColor">#FCFCFC</item>
+    </style>
+
+    <style name="detail_transaction_gray">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">#91919F</item>
+    </style>
+
+    <style name="detail_transaction_black">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">#0D0E0F</item>
+    </style>
+
+    <style name="description_detail">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">#91919F</item>
+    </style>
+
+    <style name="amet_minim_">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">#0D0E0F</item>
+    </style>
+
+    <style name="title_create_budget">
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">#000000</item>
+    </style>
+
+    <style name="how_much_do">
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">#0D0E0F</item>
+    </style>
+
+    <style name="title_detail_budget">
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">#0D0E0F</item>
+    </style>
+
+    <style name="category">
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">#0D0E0F</item>
+    </style>
+
+    <style name="remaining">
+        <item name="android:textSize">24sp</item>
+        <item name="android:textColor">#0D0E0F</item>
+    </style>
+
+    <style name="username">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">#91919F</item>
+    </style>
+
+    <style name="anonymous">
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">#212325</item>
+    </style>
+
+    <style name="account_dat">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">#292B2D</item>
+    </style>
+
+    <style name="settings">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">#292B2D</item>
+    </style>
+
+    <style name="export_data">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">#292B2D</item>
+    </style>
+
+    <style name="logout">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">#292B2D</item>
+    </style>
+
+    <style name="remaining_0">
+        <item name="android:textSize">24sp</item>
+        <item name="android:textColor">#0D0E0F</item>
+    </style>
+
+    <style name="of_1000">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">#91919F</item>
+    </style>
+
+    <style name="budget">
+        <item name="android:textSize">24sp</item>
+        <item name="android:textColor">#0D0E0F</item>
+    </style>
+
+    <style name="budget_amount">
+        <item name="android:textSize">40sp</item>
+        <item name="android:textColor">#161719</item>
+    </style>
+
+    <style name="month">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">#212325</item>
+    </style>
+
+
+</resources>

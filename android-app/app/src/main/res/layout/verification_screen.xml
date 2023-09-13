@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/verification_screen"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#EADDCF">
+
+    <!-- Top Navigation Bar -->
+
+    <RelativeLayout
+        android:id="@+id/top_navigat"
+        android:layout_width="0dp"
+        android:layout_height="64dp"
+        android:background="#EADDCF"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent">
+    </RelativeLayout>
+
+    <!-- Title TextView -->
+    <TextView
+        android:id="@+id/title_verification"
+        android:layout_width="247dp"
+        android:layout_height="32dp"
+        android:text="@string/title_verification"
+        android:textAppearance="@style/title"
+        android:textStyle="bold"
+        android:gravity="center_horizontal|center_vertical"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="16dp"/>
+
+    <RelativeLayout
+        android:id="@+id/magicons_gl"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:background="?attr/selectableItemBackgroundBorderless"
+        android:clickable="true"
+        android:focusable="true"
+        android:padding="8dp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginTop="16dp"
+        android:layout_marginStart="16dp">
+
+        <ImageView
+            android:id="@+id/backButtonIcon"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/ic_back_arrow"
+            android:scaleType="centerInside"
+            android:layout_centerInParent="true"
+            />
+
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:id="@+id/button_verify"
+        android:layout_width="343dp"
+        android:layout_height="56dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="644dp"
+        android:background="@drawable/button_signup"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="@string/verify"
+            android:textColor="#FFFFFF"
+            android:textSize="16sp" />
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/we_send_ver"
+        android:layout_width="328dp"
+        android:layout_height="57dp"
+        android:layout_marginTop="444dp"
+        android:gravity="center_horizontal|top"
+        android:text="@string/we_send_ver"
+        android:textAppearance="@style/we_send_ver"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.566"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/enter_your_verification_code_text"
+        android:layout_width="343dp"
+        android:layout_height="88dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="120dp"
+        android:gravity="top"
+        android:text="@string/enter_your_verification_code"
+        android:textAppearance="@style/enter_your_verification_code"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/title_verification" />
+
+    <TextView
+        android:id="@+id/i_did_not_re"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="536dp"
+        android:gravity="center_vertical"
+        android:text="@string/i_did_not_re"
+        android:textAppearance="@style/i_did_not_re"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.557"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/title_verification" />
+
+    <!-- Other views in your constraint layout -->
+
+    <EditText
+        android:id="@+id/editText1"
+        android:layout_width="56dp"
+        android:layout_height="56dp"
+        android:layout_marginStart="64dp"
+        android:layout_marginTop="272dp"
+        android:background="@drawable/bg_verification_code"
+        android:gravity="center"
+        android:importantForAutofill="no"
+        android:inputType="number"
+        android:maxLength="1"
+        android:textSize="24sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/title_verification" />
+
+    <EditText
+        android:id="@+id/editText2"
+        android:layout_width="56dp"
+        android:layout_height="56dp"
+        android:layout_marginStart="16dp"
+        android:background="@drawable/bg_verification_code"
+        android:gravity="center"
+        android:inputType="number"
+        android:maxLength="1"
+        android:textSize="24sp"
+        app:layout_constraintStart_toEndOf="@id/editText1"
+        app:layout_constraintTop_toTopOf="@id/editText1" />
+
+    <EditText
+        android:id="@+id/editText3"
+        android:layout_width="56dp"
+        android:layout_height="56dp"
+        android:layout_marginStart="16dp"
+        android:background="@drawable/bg_verification_code"
+        android:gravity="center"
+        android:inputType="number"
+        android:maxLength="1"
+        android:textSize="24sp"
+        app:layout_constraintStart_toEndOf="@id/editText2"
+        app:layout_constraintTop_toTopOf="@id/editText1" />
+
+    <EditText
+        android:id="@+id/editText4"
+        android:layout_width="56dp"
+        android:layout_height="56dp"
+        android:layout_marginStart="16dp"
+        android:background="@drawable/bg_verification_code"
+        android:gravity="center"
+        android:inputType="number"
+        android:maxLength="1"
+        android:textSize="24sp"
+        app:layout_constraintStart_toEndOf="@id/editText3"
+        app:layout_constraintTop_toTopOf="@id/editText1" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

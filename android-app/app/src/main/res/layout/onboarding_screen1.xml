@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/screen1Layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#EADDCF">
+
+    <TextView
+        android:id="@+id/your_money_"
+        android:layout_width="307dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="368dp"
+        android:gravity="center_horizontal|top"
+        android:lineSpacingExtra="0sp"
+        android:text="@string/your_money_"
+        android:textAppearance="@style/your_money_"
+        android:translationY="-0.14sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <!-- Showing image money1 -->
+
+    <TextView
+        android:id="@+id/empower_you"
+        android:layout_width="319dp"
+        android:layout_height="77dp"
+        android:layout_marginStart="44dp"
+        android:layout_marginTop="456dp"
+        android:gravity="center_horizontal|center_vertical"
+        android:text="@string/empower_you"
+        android:textAppearance="@style/empower_you"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <View
+        android:id="@+id/money1"
+        android:layout_width="296dp"
+        android:layout_height="255dp"
+        android:layout_marginStart="56dp"
+        android:layout_marginTop="92dp"
+        android:background="@drawable/money1"
+        app:layout_constraintHeight_default="wrap"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintWidth_default="wrap" />
+
+    <RelativeLayout
+        android:id="@+id/button_signup"
+        android:layout_width="343dp"
+        android:layout_height="56dp"
+        android:layout_marginStart="36dp"
+        android:layout_marginTop="584dp"
+        android:background="@drawable/button_signup"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="@string/sign_up_text"
+            android:textColor="#FFFFFF"
+            android:textSize="16sp" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/button_login"
+        android:layout_width="343dp"
+        android:layout_height="56dp"
+        android:layout_marginStart="36dp"
+        android:layout_marginTop="656dp"
+        android:background="@drawable/button_login"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="@string/login_text"
+            android:textColor="#000000"
+            android:textSize="16sp" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/dotsLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toTopOf="@+id/button_signup"
+        app:layout_constraintEnd_toEndOf="@+id/button_signup"
+        app:layout_constraintStart_toStartOf="@id/empower_you"
+        app:layout_constraintTop_toBottomOf="@id/empower_you"
+        app:layout_constraintVertical_bias="0.5">
+
+        <!-- Dot 1 -->
+        <ImageView
+            android:id="@+id/dot1"
+            android:layout_width="12dp"
+            android:layout_height="12dp"
+            android:src="@drawable/dot_active"
+            tools:layout_editor_absoluteX="183dp"
+            tools:layout_editor_absoluteY="541dp" />
+        <!-- Dot 2 -->
+        <ImageView
+            android:id="@+id/dot2"
+            android:layout_width="12dp"
+            android:layout_height="12dp"
+            android:src="@drawable/dot_inactive"
+            tools:layout_editor_absoluteX="199dp"
+            tools:layout_editor_absoluteY="541dp" />
+        <!-- Dot 3 -->
+        <ImageView
+            android:id="@+id/dot3"
+            android:layout_width="12dp"
+            android:layout_height="12dp"
+            android:src="@drawable/dot_inactive"
+            tools:layout_editor_absoluteX="215dp"
+            tools:layout_editor_absoluteY="541dp" />
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
